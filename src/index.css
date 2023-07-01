@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: #151515;
+  font-size: 1.2rem;
+  color: #6c7983;
+}
+
+header {
+  padding: 1rem 4rem;
+  width: 100vw;
+  min-height: 10vh;
+  background: #222121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  -webkit-box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border-bottom: 3px solid rgb(43, 30, 30);
+}
+
+header h1 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 2.5rem;
+  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all .4s ease-in-out;
+}
+
+header h1:hover {
+  transform: skew(-7deg);
+  cursor: default;
+}
+header .inp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .inp label{
+  padding: .5rem 2rem;
+  border: 2px solid  #363636;
+  border-radius: .5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
+header .inp input{
+
+}
